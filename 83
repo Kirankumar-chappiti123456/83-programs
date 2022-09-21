@@ -1,0 +1,40 @@
+area of rectangle:
+#include <stdio.h>
+
+int main()
+{
+   int area,l=1,b=2;
+   area=l*b;
+   printf("%d",area);
+}
+
+area of rectangle:using functions:
+
+#include <stdio.h>
+int area(int l,int b)
+{
+    int a=(l,b);
+    return a;
+}
+int main()
+{
+   int area,l=1,b=2;
+   area=l*b;
+   printf("%d",area);
+}
+
+ascii values a character:using fun and with out fun :
+#include <stdio.h>
+int asci(int c)
+{
+
+    return c;
+}
+int main()
+{
+    char c=65;
+    printf("enter the character:");
+    scanf("%c",&c);
+    printf("%d",c);
+    
+}
