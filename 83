@@ -38,3 +38,14 @@ int main()
     printf("%d",c);
     
 }
+celsius to fahrenhiet;
+
+
+#include<stdio.h>
+int main()
+{
+    float celius,fahr;
+    celius=24;
+    fahr=(celius*9/5)+32;
+    printf("%f",fahr);
+}
