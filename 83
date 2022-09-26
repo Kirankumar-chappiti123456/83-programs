@@ -49,3 +49,14 @@ int main()
     fahr=(celius*9/5)+32;
     printf("%f",fahr);
 }
+swap the number :
+#include<stdio.h>
+int main()
+{
+    int a=10,b=15;
+    int temp=a;
+    a=b;
+    b=temp;
+    printf(" %d %d",b,a);
+    
+}
