@@ -128,3 +128,18 @@ int main()
 }
 
 
+postive number and negative number:
+#include <stdio.h>
+
+int main()
+{
+int num;
+printf("enter the number:");
+scanf("%d",&num);
+if(num>0.0)
+printf("it is a positive number");
+if(num<0.0)
+printf("it is a negative number");
+}
+
+
