@@ -198,3 +198,19 @@ int main()
    int k=n*n;
    printf("%d",k);
 }
+
+power of number:
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int b,c;
+    printf("enter the base number:");
+    scanf("%d",&b);
+    printf("enter the power:");
+    scanf("%d",&c);
+    int p=pow(b,c);
+    printf("%d^%d=%d",b,c,p);
+    
+}
