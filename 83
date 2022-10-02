@@ -227,3 +227,15 @@ int main()
     }
     return 0;
 }
+
+multiplication tables in c:
+#include <stdio.h>
+
+int main()
+{
+    int i,k,p;
+    printf("enter the table :");
+    scanf("%d",&i);
+    for(int k=1;k<11;k++)
+    printf("%d*%d=%d\n",i,k,k*i);
+}
