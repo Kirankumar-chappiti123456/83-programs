@@ -237,5 +237,6 @@ int main()
     printf("enter the table :");
     scanf("%d",&i);
     for(int k=1;k<11;k++)
+    
     printf("%d*%d=%d\n",i,k,k*i);
 }
